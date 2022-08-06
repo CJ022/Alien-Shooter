@@ -1,0 +1,28 @@
+.grids{
+    height: 300px;
+    width: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.grids div{
+    width: 20px;
+    height: 20px;
+}
+.invader{
+    background-color: red;
+    border-radius: 10px;
+}
+.gun{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.bullet{
+    background-color: blue;
+    border-radius:10px ;
+}
+.hit{
+    background-color: orange;
+}
